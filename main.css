@@ -60,6 +60,13 @@ ul li::before {
 	float:left;
 	font-family:Arial, Helvetica, sans-serif;
 	text-transform:uppercase;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.nav-item a{
+	color: #FFF;
+	text-decoration: none;
 }
 
 .banner-wrapper {
