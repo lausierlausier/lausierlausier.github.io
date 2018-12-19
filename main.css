@@ -232,10 +232,13 @@ ul li::before {
 
 .main-content {
 	background-color: #ffffe5;
-	width:80%;
+	/* width:80%; */
+	width: 88%;
 	float:left;
-	padding-left:10%;
-	padding-right:10%;
+	/* padding-left:10%;
+	padding-right:10%; */
+	padding-left: 6%;
+	padding-right: 6%;
 	padding-top:30px;
 	padding-bottom:30px;
 }
@@ -295,7 +298,7 @@ input[type=text], input[type=tel], input[type=email], select, textarea {
 	font-family:"Sorts Mill Goudy", Georgia, "Times New Roman", Times, serif;
   }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 900px) {
 	.banner-right {
 		display: none;
 	}
