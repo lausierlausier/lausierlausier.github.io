@@ -192,7 +192,7 @@ ul li::before {
 	padding-bottom:8px;
 }
 
-.residential {
+.residential, .administration {
 	margin-bottom: 6px;
     line-height: 40px;
 }
