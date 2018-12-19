@@ -248,7 +248,7 @@ ul li::before {
 }
 
 /* FORM CODE */
-input[type=text], select, textarea {
+input[type=text], input[type=tel], input[type=email], select, textarea {
 	width: 100%;
 	padding: 10px;
 	border: 1px solid #ccc;

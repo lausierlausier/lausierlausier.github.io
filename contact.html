@@ -5,6 +5,11 @@
 <link href="https://fonts.googleapis.com/css?family=Cinzel|PT+Sans|Sorts+Mill+Goudy" rel="stylesheet">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Lausier &amp; Lausier, LLC</title>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous">
+</script>
 </head>
 
 <body>
@@ -16,8 +21,11 @@
 	<div class="nav-item"><a href="/estate-planning.html">Estate Planning</a></div>
 	<div class="nav-item"><a href="/contact.html" class="red-text">Contact</a></div>
 </div>
+<div style="width:100%;float:left;">
+    <img style="width:100%; height:auto" src="images/banners/LausierContact-newest.jpg" />
+</div>
 
-<div class="banner-wrapper">
+<!-- <div class="banner-wrapper">
 	<div class="banner-left">
         <h1 class="serif">Patricia G. Lausier Esq., CPA</h1>
         <p>One Essex Street Marblehead, Massachusetts</p>
@@ -31,11 +39,11 @@
 	<div class="banner-right">
 		<img src="images/banners/contact.jpg" class="banner-right-img"/>
 	</div>
-</div>
+</div> -->
 
 <div class="main-content">
     <div class="half half-left contact-content">
-        <h1 class="red-text serif">Contact us for efficient and cost-effective representation</h1>
+        <h1 class="red-text serif" style="line-height: 38px;">Contact us for efficient and <br />cost-effective representation</h1>
         <h2>Real Estate:</h2>
         <p>We provide legal services for both residential and commercial real estate matters. If you are purchasing,selling or financing real estate, we can assist you.</p>
         <h2>Estate planning:</h2>
@@ -50,12 +58,13 @@
             <span style="color:#fff; font-size:24px;">TELL US HOW WE CAN HELP</span>
         </div>
         <div class="form-container">
-            <form action="/">
+            <form
+            method="POST" encType="multipart/form-data">
                 <input type="text" id="fname" name="firstname" placeholder="First name">
                 <input type="text" id="lname" name="lastname" placeholder="Last name">
-                <input type="text" id="lname" name="lastname" placeholder="Email address">
-                <input type="text" id="lname" name="lastname" placeholder="Phone number">
-                <input type="text" id="lname" name="lastname" placeholder="Your zip code">
+                <input type="email" id="email" name="email" placeholder="Email address">
+                <input type="tel" id="phone" name="phone" placeholder="Phone number">
+                <input type="text" pattern="[0-9]{5}" id="zipcode" name="zipcode" placeholder="Your zip code">
 
                 <!-- <label for="country">Country</label>
                 <select id="country" name="country">
@@ -99,4 +108,7 @@
         </div>
 
 </body>
+<script type="text/javascript">
+    console.log('text');
+</script>
 </html>
