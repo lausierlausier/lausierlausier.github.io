@@ -175,6 +175,11 @@ ul li::before {
 	
 }
 
+.assist-block {
+	margin: 0;
+	font-weight: bold;
+}
+
 .red-title-bar {
 	background-color:#932032;
 	width:100%;
@@ -185,6 +190,11 @@ ul li::before {
 	font-size:38px;
 	padding-top:8px;
 	padding-bottom:8px;
+}
+
+.residential {
+	margin-bottom: 6px;
+    line-height: 40px;
 }
 
 .red-title-bar h1 {
