@@ -149,10 +149,10 @@ ul li::before {
 	width:100%;
 	float:left;
 	text-align:center;
-	color:#ffffe5;
+	color:#ffffff;
 	font-size:24px;
-	padding-top:15px;
-	padding-bottom:15px;
+	padding-top:6px;
+	padding-bottom:6px;
 	font-family:"Sorts Mill Goudy", Georgia, "Times New Roman", Times, serif;
 }
 
@@ -183,8 +183,8 @@ ul li::before {
 	text-align:center;
 	color:#FFF;
 	font-size:38px;
-	padding-top:15px;
-	padding-bottom:15px;
+	padding-top:8px;
+	padding-bottom:8px;
 }
 
 .red-title-bar h1 {
@@ -196,7 +196,7 @@ ul li::before {
 .red-title-bar h2 {
 	font-size:30px;
 	font-weight:400;
-	letter-spacing:7px;
+	letter-spacing:1px;
 }
 .red-title-bar h3 {
 	font-size:24px;
@@ -215,7 +215,7 @@ ul li::before {
 }
 
 .icon {
-	width: 125px;
+	width: 140px;
 }
 .footer {
 	text-align:center;
