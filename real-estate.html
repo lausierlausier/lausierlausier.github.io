@@ -10,8 +10,11 @@
 </head>
 
 <body>
+<div id="toggle-nav" class="close-icon" onclick="toggleNav()">
+        <i class="material-icons" style="color:white;">menu</i>
+    </div>
 
-<div class="nav">
+<div id="navigation" class="nav">
 	<div class="nav-item"><a href="/index.html">Home</a></div>
 	<div class="nav-item"><a href="/attorneys.html">Attorneys</a></div>
 	<div class="nav-item"><a href="/real-estate.html" class="red-text">Real Estate</a></div>
@@ -61,4 +64,14 @@ The Law Offices of Lausier & Lausier LLC, in Marblehead, represents clients thro
 </div>
 
 </body>
+<script type="text/javascript">
+    function toggleNav() {
+        var x = document.getElementById("navigation");
+        if (x.className === "nav") {
+            x.className += " responsive";
+        } else {
+            x.className = "nav";
+        }
+    }
+</script>
 </html>
