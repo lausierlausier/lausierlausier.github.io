@@ -50,6 +50,13 @@ ul li::before {
 	color: #003559 !important;
 }
 
+hr {
+	width: 25%;
+	border-color: #932032;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
 .nav {
 	background-color: #003559;
     width: 100%;
@@ -162,8 +169,10 @@ ul li::before {
 }
 
 .blue-title-bar > .fourth > p {
-	font-size: 10px;
-	font-weight: bold;
+	font-size: 14px;
+	margin: 0;
+	padding: 0.9em 0;
+	font-weight: bolder;
 }
 
 .fourth {
@@ -202,18 +211,6 @@ ul li::before {
 	padding-bottom:8px;
 }
 
-.contact-content > h2 {
-	margin-bottom: 0;
-}
-.contact-content > p {
-	margin-top: 0;
-}
-
-.residential, .administration {
-	margin-bottom: 6px;
-    line-height: 40px;
-}
-
 .red-title-bar h1 {
 	font-size:46px;
 	line-height:1;
@@ -230,9 +227,22 @@ ul li::before {
 	letter-spacing: 10px;
 }
 .red-title-bar h3 {
-	font-size:24px;
 	font-weight:400;
-	letter-spacing:1px;
+	margin:10px;
+	font-size:20px;
+	letter-spacing:0;
+}
+
+.contact-content > h2 {
+	margin-bottom: 0;
+}
+.contact-content > p {
+	margin-top: 0;
+}
+
+.residential, .administration {
+	margin-bottom: 6px;
+    line-height: 40px;
 }
 
 .main-content {
@@ -329,15 +339,12 @@ input[type=text], input[type=tel], input[type=email], select, textarea {
 	.half {
 		width: 100%;
 	}
+	.mobile-only {
+		display: none;
+	}
   }
 
 @media screen and (min-width: 768px) {
-	.blue-title-bar > .fourth > p {
-		font-size: 14px;
-		margin: 0;
-		padding: 0.9em 0;
-		font-weight: bolder;
-	}
 	.nav {
 		/* resets from mobile */
 		flex-direction: row;
@@ -350,11 +357,26 @@ input[type=text], input[type=tel], input[type=email], select, textarea {
 	.close-icon {
 		display:none;
 	}
+	.mobile-only {
+		display: none;
+	}
 }
 
-@media screen and (min-width: 599px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
+	.red-title-bar h3 {
+		font-size: 15px;
+	}
+	.fourth {
+		width: 100%;
+	}
+	.mobile-only {
+		display: block;
+	}
 	.blue-title-bar > .fourth > p {
-		font-size: 14px;
+		font-size: 16px;
+		margin: 5px;
+		padding: 0;
+		font-weight: 400;
 	}
 }
 
