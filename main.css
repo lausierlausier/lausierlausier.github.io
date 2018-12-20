@@ -333,7 +333,10 @@ input[type=text], input[type=tel], input[type=email], select, textarea {
 
 @media screen and (min-width: 768px) {
 	.blue-title-bar > .fourth > p {
-		font-size: 16px;
+		font-size: 14px;
+		margin: 0;
+		padding: 0.9em 0;
+		font-weight: bolder;
 	}
 	.nav {
 		/* resets from mobile */
