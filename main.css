@@ -332,6 +332,13 @@ input[type=text], input[type=tel], input[type=email], select, textarea {
 		display: none;
 	}
 
+	.hide-on-large-and-up {
+		display:block;
+	}
+	.hide-on-small-only {
+		display:none;
+	}
+
 @media screen and (max-width: 992px) {
 	.banner-right {
 		display: none;
@@ -365,6 +372,12 @@ input[type=text], input[type=tel], input[type=email], select, textarea {
 	}
 	.spacing-br {
 		display: inline-block;
+	}
+	.hide-on-large-and-up {
+		display:none;
+	}
+	.hide-on-small-only {
+		display:block;
 	}
 }
 
