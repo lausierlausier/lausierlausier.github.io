@@ -397,6 +397,9 @@ input[type=text], input[type=tel], input[type=email], select, textarea {
 	.fourth {
 		width: 100%;
 	}
+	
+	.one-third {width:100%;}
+	
 	.mobile-only {
 		display: block;
 	}
