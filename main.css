@@ -175,6 +175,15 @@ hr {
 	font-weight: bolder;
 }
 
+.blue-title-bar > .one-third > p {
+	font-size: 14px;
+	margin: 0;
+	padding: 0.9em 0;
+	font-weight: bolder;
+}
+
+.one-third {float:left;width:33%;}
+
 .fourth {
 	float: left;
 	width: 25%;
