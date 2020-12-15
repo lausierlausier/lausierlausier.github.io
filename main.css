@@ -409,6 +409,7 @@ input[type=text], input[type=tel], input[type=email], select, textarea {
 		padding: 0;
 		font-weight: 400;
 	}
+	.desktop-only {display:none;}
 }
 
 .responsive {
