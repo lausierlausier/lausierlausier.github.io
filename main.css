@@ -253,6 +253,7 @@ hr {
 	margin-bottom: 6px;
     line-height: 40px;
 }
+.desktop-only {width:100%;background:#504f50;}
 
 .main-content {
 	background-color: #ffffe5;
